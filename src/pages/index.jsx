@@ -139,7 +139,7 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
+      company: 'Mihail.tech',
       title: 'CEO',
       logo: logoPlanetaria,
       start: '2019',
@@ -149,18 +149,18 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
+      company: 'Lighthouse.cx',
       title: 'Product Designer',
       logo: logoAirbnb,
       start: '2014',
       end: '2019',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'NSFW.app',
+      title: 'Front-end enginner',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '2021',
+      end: '2022',
     },
     {
       company: 'Starbucks',
@@ -261,13 +261,10 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Software engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I'm Mihail, a software engineer currently based in Netherlands.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
